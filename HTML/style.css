@@ -1,0 +1,146 @@
+body {
+      font-family: Arial, sans-serif;
+    }
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 2px 20px;
+  justify-content: space-between; 
+    flex-wrap: nowrap;  
+}
+#bar{
+  
+    position: relative;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    border: 1px solid rgb(125, 125, 93);
+}
+
+
+#ser{
+    flex: 1px;
+    padding-left: 10px;
+    border: none;
+  outline: none;
+  font-size: 15px ;
+}
+
+.search-container {
+position: absolute;
+width: 250px;
+margin: 20px;
+}
+
+#bar i {
+  color: #423e3e4c;
+  font-size: 15px;
+  margin-left: 8px;
+  padding-top: 6px;
+}
+
+#logo{
+    padding-left: 15px;
+padding-right: 50px;
+}
+nav{
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+nav a{
+  font-size: 15px;
+  text-decoration: none; 
+}
+nav i{
+  font-size: 15px;
+}
+
+#line{
+  padding-left: 10px;
+}
+main {
+  padding: 0 20px;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;  /* Engineering left, language right */
+  align-items: center;
+}
+
+.eng {
+  font-family: "Linux Libertine";
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+
+#lang {
+  color: blue;
+  font-size: 14px;
+}
+
+#language {
+  width: auto;
+  border: none;
+  margin-left: 5px;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #aaa;
+  margin-top: 5px;
+}
+
+#art{
+display: flex;
+text-align: center;
+justify-content: space-between; 
+}
+
+#right a,
+#left a {
+  margin-right: 15px; 
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.text{
+  color:blue;
+}
+#para{
+  padding-left: 50px;
+}
+#fig {
+  float: right;
+  width: 250px;
+  background-color: rgba(240, 248, 255, 0.311);
+  border: 1px solid black;
+  padding: 3px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+
+#first, #sec, #third{
+  display:flex;
+}
+
+#b{
+  width: auto;
+  background-color:rgba(240, 248, 255, 0.311);
+  border: 2px solid black;
+  height: auto;
+  text-align: center;
+  padding: 25px;
+    
+}
+#sec{
+  padding-right: 38px;
+}
+
